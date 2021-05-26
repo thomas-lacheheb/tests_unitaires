@@ -26,7 +26,7 @@ class UtilisateurTest extends TestCase
 	}
 
 	public function testIsValidKO() {
-		$this->user->setAge(9);
+    $this->user->setNom('');
 		$this->assertFalse($this->user->isValid());
-	}
+  }
 }
