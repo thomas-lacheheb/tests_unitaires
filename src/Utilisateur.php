@@ -29,7 +29,7 @@ class Utilisateur {
 	}
 
 	public function isAgeOK() {
-		return !empty($this->age) && $this->age >= 18;
+		return !empty($this->age) && $this->age >= 13;
 	}
 
 	public function setPrenom($prenom) {
